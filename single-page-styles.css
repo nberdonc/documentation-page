@@ -4,7 +4,7 @@ body{
 }
 #navbar {
 	height: 100%;
-	width: 200px;
+	width: 20%;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -56,10 +56,12 @@ code {
 
 .main-section {
 	font-size: 1.1em;
-	margin-left: 250px;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 3%;
 }
 
-@media  only screen and (max-width: 700px) {
+@media  only screen and (max-width: 990px) {
 	#navbar {
         position: fixed;
         height: 150px;
@@ -81,7 +83,10 @@ code {
         height: 90px;
         overflow-y: auto;
         min-width: 270px;
-    }    
+    }  
+    .navlist li a{
+        margin-left: 1%;
+    }  
     #navbar a {
         padding: 0.25em;
     }
@@ -90,9 +95,10 @@ code {
     }
     .main-section {
         font-size: 1.1em;
-        margin-left: 0.5em;
+        margin-left: 5%;
         margin-top: 2em;
-        margin-right: none;
+        margin-right: 5%;
+        margin-bottom: 3%;
     }
 
 }
